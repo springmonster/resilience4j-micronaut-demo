@@ -41,6 +41,7 @@ dependencies {
     compile "io.micronaut:micronaut-http-client"
     compile "io.micronaut:micronaut-http-server-netty"
     compile "io.micronaut:micronaut-aop"
+    compile "io.micronaut.micrometer:micronaut-micrometer-core:3.4.1"
     compile "io.github.resilience4j:resilience4j-circuitbreaker:${resilience4jVersion}"
     compile "io.github.resilience4j:resilience4j-circuitbreaker:${resilience4jVersion}"
     compile "io.github.resilience4j:resilience4j-ratelimiter:${resilience4jVersion}"
